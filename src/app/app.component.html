@@ -1,9 +1,8 @@
 <app-header></app-header>
 
-<app-user-input  (clickedOnCalculate)="calculateInvestmentResults($event)"></app-user-input>
+<app-user-input></app-user-input>
 
-@if(resultData){
-  <app-investment-results [results]="resultData"></app-investment-results>
-}@else {
-  <p class="center">Enter value and click enter!</p>
-}
+
+<app-investment-results></app-investment-results>
+
+<!-- <p class="center">Enter value and click enter!</p> -->
